@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/achievement1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="TODO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back"
+        app:srcCompat="@drawable/achievement_1" />
+
+    <ImageView
+        android:id="@+id/achievement2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back"
+        app:srcCompat="@drawable/achievement_5" />
+
+    <ImageView
+        android:id="@+id/achievement3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back"
+        app:srcCompat="@drawable/achievement_10" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="34534"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/achievement1"
+        app:layout_constraintStart_toStartOf="@+id/achievement1"
+        app:layout_constraintTop_toBottomOf="@+id/achievement1" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="whomst"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/achievement2"
+        app:layout_constraintStart_toStartOf="@+id/achievement2"
+        app:layout_constraintTop_toBottomOf="@+id/achievement2" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="sork"
+        app:layout_constraintEnd_toEndOf="@+id/achievement3"
+        app:layout_constraintStart_toStartOf="@+id/achievement3"
+        app:layout_constraintTop_toBottomOf="@+id/achievement3" />
+
+    <ImageView
+        android:id="@+id/achievement4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="@+id/achievement1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/achievement1"
+        app:layout_constraintTop_toBottomOf="@+id/achievement1"
+        app:srcCompat="@drawable/achievement_20" />
+
+    <ImageView
+        android:id="@+id/achievement5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="@+id/achievement2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/achievement2"
+        app:layout_constraintTop_toBottomOf="@+id/achievement2"
+        app:srcCompat="@drawable/achievement_30" />
+
+    <ImageView
+        android:id="@+id/achievement6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="@+id/achievement3"
+        app:layout_constraintStart_toStartOf="@+id/achievement3"
+        app:layout_constraintTop_toBottomOf="@+id/achievement3"
+        app:srcCompat="@drawable/achievement_40" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="23424"
+        app:layout_constraintEnd_toEndOf="@+id/achievement4"
+        app:layout_constraintStart_toStartOf="@+id/achievement4"
+        app:layout_constraintTop_toBottomOf="@+id/achievement4" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="whost"
+        app:layout_constraintEnd_toEndOf="@+id/achievement5"
+        app:layout_constraintStart_toStartOf="@+id/achievement5"
+        app:layout_constraintTop_toBottomOf="@+id/achievement5" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="sorp"
+        app:layout_constraintEnd_toEndOf="@+id/achievement6"
+        app:layout_constraintStart_toStartOf="@+id/achievement6"
+        app:layout_constraintTop_toBottomOf="@+id/achievement6" />
+
+    <ImageView
+        android:id="@+id/achievement7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="@+id/achievement4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/achievement4"
+        app:layout_constraintTop_toBottomOf="@+id/achievement4"
+        app:srcCompat="@drawable/achievement_100" />
+
+    <ImageView
+        android:id="@+id/achievement8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="@+id/achievement5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/achievement5"
+        app:layout_constraintTop_toBottomOf="@+id/achievement5"
+        app:srcCompat="@drawable/achievement_200" />
+
+    <ImageView
+        android:id="@+id/achievement9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="@+id/achievement6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/achievement6"
+        app:layout_constraintTop_toBottomOf="@+id/achievement6"
+        app:srcCompat="@drawable/achievement_300" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="123423"
+        app:layout_constraintEnd_toEndOf="@+id/achievement7"
+        app:layout_constraintStart_toStartOf="@+id/achievement7"
+        app:layout_constraintTop_toBottomOf="@+id/achievement7" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="wowst"
+        app:layout_constraintEnd_toEndOf="@+id/achievement8"
+        app:layout_constraintStart_toStartOf="@+id/achievement8"
+        app:layout_constraintTop_toBottomOf="@+id/achievement8" />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="soop"
+        app:layout_constraintEnd_toEndOf="@+id/achievement9"
+        app:layout_constraintStart_toStartOf="@+id/achievement9"
+        app:layout_constraintTop_toBottomOf="@+id/achievement9" />
+
+    <ImageView
+        android:id="@+id/achievement10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="@+id/achievement7"
+        app:layout_constraintStart_toStartOf="@+id/achievement7"
+        app:layout_constraintTop_toBottomOf="@+id/achievement7"
+        app:srcCompat="@drawable/achievement_400" />
+
+    <ImageView
+        android:id="@+id/achievement11"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="@+id/achievement8"
+        app:layout_constraintStart_toStartOf="@+id/achievement8"
+        app:layout_constraintTop_toBottomOf="@+id/achievement8"
+        app:srcCompat="@drawable/achievement_500" />
+
+    <ImageView
+        android:id="@+id/achievement12"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="@+id/achievement9"
+        app:layout_constraintStart_toStartOf="@+id/achievement9"
+        app:layout_constraintTop_toBottomOf="@+id/achievement9"
+        app:srcCompat="@drawable/achievement_1000" />
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="bed"
+        app:layout_constraintEnd_toEndOf="@+id/achievement10"
+        app:layout_constraintStart_toStartOf="@+id/achievement10"
+        app:layout_constraintTop_toBottomOf="@+id/achievement10" />
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="who"
+        app:layout_constraintEnd_toEndOf="@+id/achievement11"
+        app:layout_constraintStart_toStartOf="@+id/achievement11"
+        app:layout_constraintTop_toBottomOf="@+id/achievement11" />
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="sop"
+        app:layout_constraintEnd_toEndOf="@+id/achievement12"
+        app:layout_constraintStart_toStartOf="@+id/achievement12"
+        app:layout_constraintTop_toBottomOf="@+id/achievement12" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="BACK"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

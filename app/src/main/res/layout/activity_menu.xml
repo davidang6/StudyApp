@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.davidang.studyapp.Menu">
+
+    <TextView
+        android:id="@+id/hoursView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="00"
+        android:textSize="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:lines="2"
+        android:text="Hours Studied This Week"
+        app:layout_constraintEnd_toEndOf="@+id/hoursView"
+        app:layout_constraintStart_toStartOf="@+id/hoursView"
+        app:layout_constraintTop_toBottomOf="@+id/bar2" />
+
+    <Button
+        android:id="@+id/startSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:text="Start Study Session"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hoursView" />
+
+    <Spinner
+        android:id="@+id/minSpinner"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startSession" />
+
+    <Spinner
+        android:id="@+id/hrSpinner"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startSession" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Hours"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/hrSpinner"
+        app:layout_constraintEnd_toEndOf="@+id/hrSpinner"
+        app:layout_constraintStart_toStartOf="@+id/hrSpinner" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Minutes"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/minSpinner"
+        app:layout_constraintEnd_toEndOf="@+id/minSpinner"
+        app:layout_constraintStart_toStartOf="@+id/minSpinner" />
+
+    <Button
+        android:id="@+id/achievements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:width="180dp"
+        android:text="Achievements"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/minSpinner"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toEndOf="@+id/hrSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/bar" />
+
+    <TextView
+        android:id="@+id/bar"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#444"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hrSpinner" />
+
+    <Button
+        android:id="@+id/statistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Statistics"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/achievements"
+        app:layout_constraintStart_toStartOf="@+id/achievements"
+        app:layout_constraintTop_toBottomOf="@+id/achievements" />
+
+    <TextView
+        android:id="@+id/levelView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:text="00"
+        android:textSize="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:progress="0"
+        android:progressTint="#C55"
+        app:layout_constraintBottom_toBottomOf="@+id/levelView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/levelView"
+        app:layout_constraintTop_toTopOf="@+id/levelView" />
+
+    <TextView
+        android:id="@+id/bar2"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:background="#444"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelView" />
+
+    <TextView
+        android:id="@+id/progressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/progressBar"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <Button
+        android:id="@+id/schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="SCHEDULE"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/statistics"
+        app:layout_constraintStart_toStartOf="@+id/statistics"
+        app:layout_constraintTop_toBottomOf="@+id/statistics" />
+
+</android.support.constraint.ConstraintLayout>

@@ -4,7 +4,7 @@ Meant to aid the user in preventing distractions and manage their time more effe
 * Could send automated messages to those trying to contact the user to inform them that they were studying or busy.
 
 Authors  
-https://github.com/davidang6  
+https://github.com/davidang6 (https://web.njit.edu/~cda23/)  
 https://github.com/C3POrtillo  
 Jay Rana  
 Joseph Fiore  

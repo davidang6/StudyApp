@@ -1,3 +1,10 @@
 # StudyApp
-I made this Android app along with 3 other team members during a 24 hour hackathon on 11/11/2017. More information on the app
-can be found on my website (web.njit.edu/~cda23) in the "Projects" section.
+Meant to aid the user in preventing distractions and manage their time more effectively, with a priority towards students. 
+* Organized the user’s time for studying by managing their schedule and by potentially disabling notifications and messages. 
+* Could send automated messages to those trying to contact the user to inform them that they were studying or busy.
+
+Authors  
+https://github.com/davidang6
+https://github.com/C3POrtillo
+Jay Rana
+Joseph Fiore
